@@ -200,17 +200,6 @@
 
     self.leftContainerView.frame = leftFrame;
     self.rightContainerView.frame = rightFrame;
-/*
-    CGRect leftBounds = leftFrame;
-    leftBounds.origin = CGPointZero;
-    CGRect rightBounds = rightFrame;
-    rightBounds.origin = CGPointZero;
-
-    leftViewController.view.frame = leftBounds;
-    
-    right1ViewController.view.frame = rightBounds;
-    right2ViewController.view.frame = rightBounds;
-*/
 }
 
 @end
